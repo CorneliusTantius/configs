@@ -1,0 +1,7 @@
+sudo nano /etc/mkinitcpio.conf
+MODULES=()
+sudo mkinitcpio -P
+sudo pacman -Rns nvidia nvidia-utils lib32-nvidia-utils nvidia-settings
+lsmod | grep nvidia
+lspci -k | grep -A 3 -E "VGA|3D"
+
