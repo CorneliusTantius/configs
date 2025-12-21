@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "flight-aggregator-test",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
